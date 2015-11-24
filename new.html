@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Banheiro app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Add to homescreen -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/icon.png">
+    <meta name="theme-color" content="#2196f3">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Shopping">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/icon.png">
+    <meta name="msapplication-TileColor" content="#2196f3">
+
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="blue lighten-4">
+    <div class="current-page">
+        <main class="new page">
+
+            <div class="navbar-fixed">
+                <nav class="blue">
+                    <div class="nav-wrapper">
+                        <a class="brand-logo center">Novo rótulo</a>
+                            <ul class="left">
+                            <li>
+                                  <a href="index.html">
+                                      <i class="material-icons waves-effect waves-light waves-circle">arrow_back</i>
+                                  </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <form class="card-panel">
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="name" name="name" type="text" class="validate">
+                        <label for="name">Nome do produto</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s10">
+        				<input id="barcode" name="barcode" type="number" class="validate">
+        				<label for="barcode">Código de barras</label>
+        			</div>
+
+        			<div class="input-field col s2">
+        				<a class="waves-effect btn-floating code-scan orange modal-trigger" href="#scan">
+        					<i class="material-icons">camera</i>
+        				</a>
+        			</div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="description" name="description" class="materialize-textarea"></textarea>
+                        <label for="description">Descrição</label>
+                    </div>
+                </div>
+
+                <button class="btn waves-effect waves-light blue" type="submit">Enviar
+                    <i class="material-icons right">send</i>
+                </button>
+            </form>
+        </main>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "banheiro",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ggviana/banheiro.git"
+  },
+  "author": "Guilherme Guimarães Viana <ggviana@hotmail.com.br>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ggviana/banheiro/issues"
+  },
+  "homepage": "https://github.com/ggviana/banheiro",
+  "devDependencies": {
+    "materialize-css": "~0.97.3"
+  }
+}

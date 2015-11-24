@@ -1,0 +1,22 @@
+.main-title {
+    font-size: 42px;
+    margin-top: 0;
+    text-align: center;
+}
+.current-page {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.home.page {
+    background-image: url('/img/tiles.jpg');
+    height: 100vh;
+    padding-top: 30vh;
+}
+.new.page {
+    height: 100vh;
+}
+
+
+.navbar-fixed nav {
+    position: absolute;
+}
