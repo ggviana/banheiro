@@ -16,7 +16,5 @@
     "url": "https://github.com/ggviana/banheiro/issues"
   },
   "homepage": "https://github.com/ggviana/banheiro",
-  "devDependencies": {
-    "materialize-css": "~0.97.3"
-  }
+  "devDependencies": {}
 }
