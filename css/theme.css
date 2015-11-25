@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 .home.page {
-    background-image: url('/img/tiles.jpg');
+    background-image: url('../img/tiles.jpg');
     height: 100vh;
     padding-top: 30vh;
 }
